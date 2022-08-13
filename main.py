@@ -11,7 +11,7 @@ class MyApp(QWidget):
     def init_ui(self):
         self.setWindowTitle('Icon')
         self.setWindowIcon(QIcon(Icon_Path))
-        self.setGeometry(300, 300, 300, 200)
+        self.setGeometry(400, 400, 400, 300)
         self.show()
 
 if __name__ == '__main__':
