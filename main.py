@@ -9,7 +9,7 @@ class MyApp(QWidget):
         super().__init__()
         self.init_ui()
     def init_ui(self):
-        self.setWindowTitle('Icon')
+        self.setWindowTitle('Icn')
         self.setWindowIcon(QIcon(Icon_Path))
         self.setGeometry(600, 400, 400, 300)
         self.show()
